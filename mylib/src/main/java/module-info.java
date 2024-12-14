@@ -1,5 +1,5 @@
 module usadamasa.mylib {
-    requires usadamasa.auto.module.lib;
+    requires wraplib;
 
     exports org.example.mymodule.imajava.mylib;
 }
