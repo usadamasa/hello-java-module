@@ -1,3 +1,3 @@
 module usadamas.myapp {
-    requires usadamas.mylib;
+    requires usadamasa.mylib;
 }
