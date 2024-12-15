@@ -1,1 +1,1 @@
-Automatic-Module-Name: dev.usadamasa.acllib
+Automatic-Module-Name: usadamasa.acllib

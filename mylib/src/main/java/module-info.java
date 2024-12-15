@@ -1,4 +1,4 @@
-module usadamasa.mylib {
+module dev.usadamasa.mylib {
     requires usadamasa.acllib;
     requires dev.usadamasa.childlib;
 
