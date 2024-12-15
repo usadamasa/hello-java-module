@@ -20,13 +20,15 @@
     <dependencies>
         <dependency>
             <groupId>${project.parent.groupId}</groupId>
-            <artifactId>childlib</artifactId>
+            <artifactId>usadamasa-childlib</artifactId>
             <version>${project.parent.version}</version>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>${project.parent.groupId}</groupId>
-            <artifactId>acllib</artifactId>
+            <artifactId>usadamasa-acllib</artifactId>
             <version>${project.parent.version}</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 </project>

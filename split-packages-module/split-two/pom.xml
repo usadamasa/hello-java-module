@@ -10,7 +10,7 @@
         <relativePath>../../pom.xml</relativePath>
     </parent>
 
-    <artifactId>split-two</artifactId>
+    <artifactId>usadamasa-split-two</artifactId>
 
     <properties>
         <maven.compiler.source>23</maven.compiler.source>

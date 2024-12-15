@@ -26,13 +26,15 @@
         </dependency>
         <dependency>
             <groupId>${project.parent.groupId}</groupId>
-            <artifactId>split-one</artifactId>
+            <artifactId>usadamasa-split-one</artifactId>
             <version>${project.parent.version}</version>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>${project.parent.groupId}</groupId>
-            <artifactId>split-two</artifactId>
+            <artifactId>usadamasa-split-two</artifactId>
             <version>${project.parent.version}</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 </project>

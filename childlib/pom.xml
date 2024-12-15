@@ -9,7 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>childlib</artifactId>
+    <artifactId>usadamasa-childlib</artifactId>
     <packaging>jar</packaging>
 
     <properties>
@@ -21,7 +21,7 @@
     <dependencies>
         <dependency>
             <groupId>dev.usadamasa</groupId>
-            <artifactId>split-one</artifactId>
+            <artifactId>usadamasa-split-one</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>

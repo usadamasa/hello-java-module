@@ -1,5 +1,5 @@
 module dev.usadamasa.childlib {
-    requires split.one;
+    requires usadamasa.split.one;
 
     // Cannot access dev.usadamasa.split.WidgetTwo by split package.
     // requires split.two;
