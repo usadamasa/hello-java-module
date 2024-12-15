@@ -1,5 +1,7 @@
 # hello-java-module
 
+**検証中**
+
 モジュールシステムを導入するときの名前付きモジュールと自動モジュールの組合せ､そしてSplit Packageの回避方法を示す｡
 
 ```mermaid
@@ -42,7 +44,7 @@ graph TD;
 
     myapp --OK--> mylib;
     mylib --OK--> childlib;
-    mylib --③OK--> acllib;
+    mylib --③NG???--> acllib;
 
     childlib --①NG--x spilit-package-module;
     acllib --②OK--> spilit-package-module;
@@ -52,7 +54,7 @@ graph TD;
 ```
 
 split packageが発生している自動モジュールを､名前付きモジュールから直接利用できない(①)｡  
-回避方法として､split packageが発生しているモジュールを一旦自動モジュールでラップ(②)し､ラップした自動モジュールを名前付きモジュールから利用する(③)｡
+回避方法として､split packageが発生しているモジュールを一旦自動モジュールでラップ(②)し､ラップした自動モジュールを名前付きモジュールから利用できないか検証(③)｡
 
 (*): 腐敗防止層（ACL：Anti Corruption Layer）をイメージさせるのでACLモジュールと呼んでみたい｡
 
