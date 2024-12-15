@@ -1,4 +1,4 @@
-package org.usadamasa.wrap.pubsub;
+package org.usadamasa.autoapp.wrap.pubsub;
 
 import com.google.cloud.pubsub.v1.TopicAdminClient;
 import com.google.pubsub.v1.Topic;

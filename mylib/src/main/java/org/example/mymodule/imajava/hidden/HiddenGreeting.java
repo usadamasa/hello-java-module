@@ -3,7 +3,7 @@ package org.example.mymodule.imajava.hidden;
 // Don't allow to use com.google.pubsub.v1.TopicName.
 //import com.google.pubsub.v1.TopicName;
 
-import org.usadamasa.wrap.pubsub.CreateTopicExample;
+import org.usadamasa.autoapp.wrap.pubsub.CreateTopicExample;
 
 import java.io.IOException;
 

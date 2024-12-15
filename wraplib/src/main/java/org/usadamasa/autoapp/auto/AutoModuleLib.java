@@ -1,4 +1,4 @@
-package org.usadamasa.auto;
+package org.usadamasa.autoapp.auto;
 
 public class AutoModuleLib {
     public String autoModuleHello(String name) {

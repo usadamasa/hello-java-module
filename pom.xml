@@ -12,6 +12,7 @@
         <module>wraplib</module>
         <module>mylib</module>
         <module>myapp</module>
+        <module>auto-app</module>
     </modules>
 
     <properties>
