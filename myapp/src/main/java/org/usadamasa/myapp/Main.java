@@ -1,4 +1,4 @@
-package org.example.myapp.main;
+package org.usadamasa.myapp;
 
 import org.usadamasa.mylib.exported.Greeting;
 

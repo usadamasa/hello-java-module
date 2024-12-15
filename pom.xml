@@ -9,10 +9,13 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>childlib</module>
-        <module>mylib</module>
+        <!-- apos -->
         <module>myapp</module>
         <module>auto-app</module>
+        <!-- libs -->
+        <module>acllib</module>
+        <module>childlib</module>
+        <module>mylib</module>
         <module>split-packages-module</module>
     </modules>
 
