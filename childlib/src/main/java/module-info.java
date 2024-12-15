@@ -1,8 +1,8 @@
-module org.usadamasa.childlib {
+module dev.usadamasa.childlib {
     requires split.one;
 
-    // Cannot access org.usadamasa.split.WidgetTwo by split package.
+    // Cannot access dev.usadamasa.split.WidgetTwo by split package.
     // requires split.two;
 
-    exports org.usadamasa.childlib.exported;
+    exports dev.usadamasa.childlib.exported;
 }

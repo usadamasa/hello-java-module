@@ -1,7 +1,7 @@
 module usadamasa.mylib {
-    requires acllib;
-    requires org.usadamasa.childlib;
+    requires dev.usadamasa.acllib;
+    requires dev.usadamasa.childlib;
 
-    // exports org.usadamasa.mylib.hidden;
-    exports org.usadamasa.mylib.exported;
+    // exports dev.usadamasa.mylib.hidden;
+    exports dev.usadamasa.mylib.exported;
 }
