@@ -1,6 +1,6 @@
 module usadamasa.mylib {
-    requires wraplib;
-//    requires proto.google.cloud.pubsub.v1;
+    requires org.usadamasa.childlib;
 
-    exports org.example.mymodule.imajava.mylib;
+    // exports org.usadamasa.mylib.hidden;
+    exports org.usadamasa.mylib.exported;
 }

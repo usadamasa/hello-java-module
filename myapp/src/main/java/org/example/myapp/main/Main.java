@@ -1,6 +1,6 @@
 package org.example.myapp.main;
 
-import org.example.mymodule.imajava.mylib.Greeting;
+import org.usadamasa.mylib.exported.Greeting;
 
 public class Main {
     public static void main(String[] args) {

@@ -27,26 +27,29 @@ graph TD;
     subgraph "My App"
         myapp[app]:::namedModule
         mylib(mylib):::namedModule
-        wraplib(wraplib):::namedModule
+        childlib(childlib):::namedModule
         autoapp[auto-app]:::autoModule
-    end 
+        autolib[auto-lib]:::autoModule
+    end
 
     subgraph "ThirdParty"
         valid(valid):::autoModule
         
-        subgraph "IllegalModule"
-            split-parent(invalid-parent):::autoModule
-            split-child(invalid-child):::autoModule
+        subgraph "spilit-package-module"
+            split-one(split-one):::autoModule
+            split-two(split-two):::autoModule
         end
     end
 
     myapp --OK--> mylib;
-    mylib --OK--> wraplib;
-    wraplib --OK--> valid;
-    wraplib --NG--x IllegalModule;
+    mylib --OK--> childlib;
+    mylib --??--> autolib;
+
+    childlib --OK--> valid;
+    childlib --NG--x spilit-package-module;
 
     autoapp --OK--> mylib;
-    autoapp --OK--> IllegalModule;
+    autoapp --OK--> spilit-package-module;
 
-    split-parent --same name package--> split-child;
+    autolib --??--> spilit-package-module;
 ```

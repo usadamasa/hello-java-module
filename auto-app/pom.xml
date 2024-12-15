@@ -31,12 +31,20 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.google.cloud</groupId>
-            <artifactId>google-cloud-workflow-executions</artifactId>
+            <groupId>${project.parent.groupId}</groupId>
+            <artifactId>mylib</artifactId>
+            <version>${project.parent.version}</version>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>${project.parent.groupId}</groupId>
-            <artifactId>mylib</artifactId>
+            <artifactId>split-one</artifactId>
+            <version>${project.parent.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>${project.parent.groupId}</groupId>
+            <artifactId>split-two</artifactId>
             <version>${project.parent.version}</version>
             <scope>compile</scope>
         </dependency>

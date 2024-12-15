@@ -3,17 +3,17 @@
          xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
-    <groupId>org.usadamasa</groupId>
-    <artifactId>hello-java-module</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <parent>
+        <groupId>org.usadamasa</groupId>
+        <artifactId>hello-java-module</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>split-packages-module</artifactId>
     <packaging>pom</packaging>
+
     <modules>
-        <module>childlib</module>
-        <module>mylib</module>
-        <module>myapp</module>
-        <module>auto-app</module>
-        <module>split-packages-module</module>
+        <module>split-one</module>
+        <module>split-two</module>
     </modules>
 
     <properties>
@@ -21,5 +21,4 @@
         <maven.compiler.target>23</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
 </project>
